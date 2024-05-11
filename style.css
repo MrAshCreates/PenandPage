@@ -1,31 +1,52 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f2f2f2;
+/* Reset CSS */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
-    color: #444;
+header {
+    background-color: #6c564f;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
 }
 
-p {
-    color: #666;
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-/* Additional styles for links */
-a {
-    color: #007bff;
-    text-decoration: none;
+section {
+    padding: 60px 0;
+    text-align: center;
 }
 
-a:hover {
-    text-decoration: underline;
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #6c564f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
