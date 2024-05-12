@@ -28,3 +28,24 @@ declineCookiesBtn.onclick = function() {
     cookieConsent.style.display = "none";
     // Add code to handle declined cookies (if applicable)
 }
+
+// Contact form submission
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    let formData = new FormData(this);
+    // Send form data using AJAX or fetch API
+    // Example using fetch API:
+    fetch("contact.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Handle response (e.g., show success message)
+        console.log(data);
+    })
+    .catch(error => {
+        // Handle errors (e.g., show error message)
+        console.error("Error:", error);
+    });
+});
