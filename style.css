@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #6c564f;
+    background-color: #a1887f; /* Darker brown */
     color: #fff;
     padding: 20px 0;
     align-content: center;
@@ -36,7 +36,8 @@ header {
 }
 
 header h1 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
 }
 
 nav ul {
@@ -51,6 +52,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2rem; /* Larger font size */
 }
 
 nav ul li a:hover {
@@ -63,14 +65,14 @@ section {
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Larger font size */
     margin-bottom: 20px;
+    color: #6c564f; /* Dark brown */
 }
 
 section p {
     margin-bottom: 20px;
 }
-
 
 /* Gallery Styles */
 .gallery {
@@ -81,13 +83,18 @@ section p {
 
 .gallery img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px; /* Rounder corners */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Contact Form Styles */
 #contact-form {
     max-width: 500px;
     margin: 0 auto;
+    background-color: #e0dedc; /* Lighter gray */
+    padding: 20px;
+    border-radius: 10px; /* Rounder corners */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .form-group {
@@ -97,12 +104,13 @@ section p {
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold; /* Bold label */
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: calc(100% - 20px); /* Adjusted width */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -122,16 +130,16 @@ button[type="submit"]:hover {
     background-color: #543b33;
 }
 
-
-
+/* Footer Styles */
 footer {
-    background-color: #6c564f;
+    background-color: #a1887f; /* Darker brown */
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    border-top: 2px solid #6c564f; /* Dark brown */
 }
 
-footer .footer-content {
+.footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -140,6 +148,32 @@ footer .footer-content {
 .footer-info, .footer-social, .footer-buttons {
     flex: 1 1 200px;
     margin-bottom: 20px;
+}
+
+.footer-info h3, .footer-social h3, .footer-buttons h3 {
+    margin-bottom: 10px; /* Spacing */
+}
+
+.footer-info p {
+    margin-bottom: 10px; /* Spacing */
+}
+
+.footer-social ul {
+    list-style-type: none;
+}
+
+.footer-social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
 }
 
 .footer-buttons .contact-button, .footer-buttons .library-button {
