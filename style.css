@@ -7,7 +7,7 @@
 
 /* Global Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Modern font */
     background-color: #f9f9f9;
     color: #333;
 }
@@ -19,10 +19,10 @@ body {
 }
 
 header {
-    background-color: #a1887f; /* Darker brown */
+    background-color: #c6a68e; /* Light brown */
     color: #fff;
     padding: 20px 0;
-    align-content: center;
+    text-align: center; /* Center text */
 }
 
 .logo {
@@ -38,21 +38,27 @@ header {
 header h1 {
     font-size: 2rem; /* Larger font size */
     font-weight: bold; /* Bold text */
+    font-family: 'Abril Fatface', cursive; /* Rustic font */
+}
+
+nav {
+    margin-top: 20px; /* Add margin to separate from header */
 }
 
 nav ul {
-    list-style-type: none;
+    display: inline-block; /* Display as inline block */
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Display list items inline */
     margin-right: 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #6c564f; /* Dark brown */
     text-decoration: none;
     font-size: 1.2rem; /* Larger font size */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
 }
 
 nav ul li a:hover {
@@ -68,10 +74,12 @@ section h2 {
     font-size: 2.5rem; /* Larger font size */
     margin-bottom: 20px;
     color: #6c564f; /* Dark brown */
+    font-family: 'Abril Fatface', cursive; /* Rustic font */
 }
 
 section p {
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif; /* Modern font */
 }
 
 /* Gallery Styles */
@@ -117,7 +125,7 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: #6c564f;
+    background-color: #6c564f; /* Dark brown */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -127,12 +135,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #543b33;
+    background-color: #543b33; /* Darker brown */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #a1887f; /* Darker brown */
+    background-color: #c6a68e; /* Light brown */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -152,6 +160,7 @@ footer {
 
 .footer-info h3, .footer-social h3, .footer-buttons h3 {
     margin-bottom: 10px; /* Spacing */
+    font-family: 'Abril Fatface', cursive; /* Rustic font */
 }
 
 .footer-info p {
@@ -199,7 +208,7 @@ footer {
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #6c564f;
+    background-color: #6c564f; /* Dark brown */
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -225,7 +234,7 @@ footer {
 
 .cookie-consent button {
     margin-left: 10px;
-    background-color: #6c564f;
+    background-color: #6c564f; /* Dark brown */
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -233,7 +242,7 @@ footer {
 }
 
 #announcement {
-    background-color: #ffd966;
+    background-color: #ffd966; /* Yellow */
     color: #333;
     padding: 10px 0;
 }
