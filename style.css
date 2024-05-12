@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #c6a68e; /* Light brown */
+    background-color: #3498db; /* Blue */
     color: #fff;
     padding: 20px 0;
     text-align: center; /* Center text */
@@ -28,6 +28,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center horizontally */
 }
 
 .logo img {
@@ -38,7 +39,6 @@ header {
 header h1 {
     font-size: 2rem; /* Larger font size */
     font-weight: bold; /* Bold text */
-    font-family: 'Abril Fatface', cursive; /* Rustic font */
 }
 
 nav {
@@ -55,10 +55,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #6c564f; /* Dark brown */
+    color: #fff;
     text-decoration: none;
     font-size: 1.2rem; /* Larger font size */
-    font-family: 'Montserrat', sans-serif; /* Modern font */
 }
 
 nav ul li a:hover {
@@ -73,13 +72,10 @@ section {
 section h2 {
     font-size: 2.5rem; /* Larger font size */
     margin-bottom: 20px;
-    color: #6c564f; /* Dark brown */
-    font-family: 'Abril Fatface', cursive; /* Rustic font */
 }
 
 section p {
     margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif; /* Modern font */
 }
 
 /* Gallery Styles */
@@ -99,7 +95,7 @@ section p {
 #contact-form {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #e0dedc; /* Lighter gray */
+    background-color: #ecf0f1; /* Light gray */
     padding: 20px;
     border-radius: 10px; /* Rounder corners */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -125,7 +121,7 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: #6c564f; /* Dark brown */
+    background-color: #3498db; /* Blue */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -135,16 +131,16 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #543b33; /* Darker brown */
+    background-color: #2980b9; /* Darker blue */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #c6a68e; /* Light brown */
+    background-color: #3498db; /* Blue */
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    border-top: 2px solid #6c564f; /* Dark brown */
+    border-top: 2px solid #2980b9; /* Darker blue */
 }
 
 .footer-content {
@@ -160,7 +156,6 @@ footer {
 
 .footer-info h3, .footer-social h3, .footer-buttons h3 {
     margin-bottom: 10px; /* Spacing */
-    font-family: 'Abril Fatface', cursive; /* Rustic font */
 }
 
 .footer-info p {
@@ -189,7 +184,7 @@ footer {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #6c564f;
+    color: #3498db; /* Blue */
     text-decoration: none;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -197,7 +192,7 @@ footer {
 }
 
 .footer-buttons .contact-button:hover, .footer-buttons .library-button:hover {
-    background-color: #6c564f;
+    background-color: #3498db; /* Blue */
     color: #fff;
 }
 
@@ -208,7 +203,7 @@ footer {
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #6c564f; /* Dark brown */
+    background-color: #3498db; /* Blue */
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -234,7 +229,7 @@ footer {
 
 .cookie-consent button {
     margin-left: 10px;
-    background-color: #6c564f; /* Dark brown */
+    background-color: #3498db; /* Blue */
     color: #fff;
     border: none;
     padding: 5px 10px;
