@@ -21,13 +21,39 @@ body {
 header {
     background-color: #6c564f;
     color: #fff;
-    padding: 80px 0;
-    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
 }
 
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -49,4 +75,90 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-info, .footer-social, .footer-buttons {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+
+.footer-buttons .contact-button, .footer-buttons .library-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #6c564f;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-buttons .contact-button:hover, .footer-buttons .library-button:hover {
+    background-color: #6c564f;
+    color: #fff;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #6c564f;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.cookie-consent p {
+    margin-bottom: 10px;
+}
+
+.cookie-consent button {
+    margin-left: 10px;
+    background-color: #6c564f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#announcement {
+    background-color: #ffd966;
+    color: #333;
+    padding: 10px 0;
+}
+
+#announcement p {
+    animation: fadeinout 5s linear infinite;
+}
+
+@keyframes fadeinout {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
