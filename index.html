@@ -9,10 +9,27 @@
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to Pen & Page</h1>
-            <p>Your cozy destination for pre-loved books</p>
+            <div class="logo">
+                <img src="assets/logo.png" alt="Pen & Page Logo">
+                <h1>Pen & Page</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#library">Library</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
+    <section id="announcement">
+        <div class="container">
+            <p>Announcements: We are hosting a book signing event next Saturday! Don't miss it!</p>
+        </div>
+    </section>
 
     <section id="about">
         <div class="container">
@@ -35,21 +52,60 @@
         </div>
     </section>
 
+    <section id="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <!-- Add photo gallery here -->
+        </div>
+    </section>
+
+    <section id="owner">
+        <div class="container">
+            <h2>About the Owner</h2>
+            <p>[Owner's Name] is a passionate book lover who started Pen & Page with the vision of creating a welcoming space for fellow book enthusiasts.</p>
+            <p>With years of experience in the book industry, [Owner's Name] ensures that every customer feels valued and finds their perfect read.</p>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Visit us today and let us help you find your next favorite book!</p>
-            <p>123 Main Street, Your City</p>
-            <p>Phone: 123-456-7890</p>
-            <p>Email: info@penandpage.com</p>
+            <p>Got art to sell, books to donate, or just want to say hello? Fill out the form below:</p>
+            <!-- Add contact form here -->
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Pen & Page. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Visit Us</h3>
+                    <p>123 Main Street, Your City</p>
+                    <p>Store Hours: Mon-Sat 9am-7pm, Sun 10am-5pm</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-buttons">
+                    <a href="#contact" class="contact-button">Contact Us</a>
+                    <a href="#" class="library-button">Store Library</a>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <button id="back-to-top" title="Go to top">&#8593;</button>
+
+    <div id="cookie-consent" class="cookie-consent">
+        <p>We use cookies to track usage and preferences. <a href="#">Learn more</a></p>
+        <button id="accept-cookies">Accept</button>
+        <button id="decline-cookies">Decline</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
